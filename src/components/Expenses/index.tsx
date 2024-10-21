@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "./Expenses.module.css";
 import ExpenseItem from "../ExpenseItem";
 
 export interface Expense {

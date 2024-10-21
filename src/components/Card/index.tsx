@@ -1,3 +1,4 @@
+import React from "react";
 import Expenses from "../Expenses";
 import styles from "./Card.module.css";
 
