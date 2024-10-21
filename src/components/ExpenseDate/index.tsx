@@ -1,7 +1,11 @@
 import React from "react";
 import styles from "./ExpenseDate.module.css";
 
-const ExpenseDate = ({ date }: { date: Date }) => {
+interface ExpenseDateProps {
+  date: Date
+}
+
+const ExpenseDate = ({ date }: ExpenseDateProps) => {
   return (
     <div className={styles.expense_date}>
       <div className={styles.expense_date__month}>
